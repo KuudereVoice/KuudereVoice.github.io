@@ -8,9 +8,11 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
+	max-width: 900px;
+	/* border: #fff 1px solid; */
 }
 
-a, h1, h2 {
+a, h1, h2, h3 {
 	color: var(--blue-color);
 	padding: 10px 0px 5px 10px;
 	margin-block-start: 0;
@@ -18,9 +20,16 @@ a, h1, h2 {
 	margin-inline-start: 0;
 	margin-inline-end: 0;
 }
+h3 {
+	padding: 15px 0px 0px 20px;
+}
 span {
 	color: var(--pink-color);
+	padding: 0px 0px 0px 2px;
 }
 p {
-	padding: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 30px;
+}
+li {
+	padding: 2px 0px 0px 0px;
 }
