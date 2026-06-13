@@ -21,8 +21,10 @@
 	<main>
 		<h2 id="about-server-an">About server</h2>
 		<div>
-			<p>Kuudere's bunnyhop - is a small autobunnyhop server, there are 2142 zoned maps. We use shavit's bhoptimer and many other plugins that will be useful to you (check command section).</p>
-			<p>There will never be any garbage here like weapon skins, player models (possibly only for the replay bot), paid donations, music, and other unnecessary plugins.</p>
+			<p>Kuudere's bunnyhop - is a small autobunnyhop server, there are 1986 zoned maps. We use shavit's bhoptimer
+				and many other plugins that will be useful to you (check command section).</p>
+			<p>There will never be any garbage here like weapon skins, player models (possibly only for the replay bot),
+				paid donations, music, and other unnecessary plugins.</p>
 			
 		</div>
 		<h2 id="styles-an">Styles</h2>
@@ -35,21 +37,19 @@
 				<li><span>Low Gravity</span> -  Just low gravity</li>
 				<li><span>Segmented</span> - You can save your time, speed and position using the menu</li>
 				<li><span>Segmented LG</span> - The same as LG, but with segments menu</li>
-				<li><span>Scroll</span> -  Jump only on scroll</li>
-				<li><span>400 Velocity</span> - Speed limit at 400 Velocity</li>
-				<li><span>600 Velocity</span> - Speed limit at 600 Velocity</li>
-				<li><span>Jump Impulse</span> - High jump height</li>
+				<li><span>Scroll</span> -  No autobhop, jump only on scroll</li>
+				<li><span>Scroll Easy</span> -  No autobhop, no stamina, jump only on scroll</li>
 				<li><span>Tool-Assisted</span> - Autostrafe, segments, timescale and others</li>
 				<li><span>Tool-Assisted NL</span> - The same as TAS, but less speed loss</li>
-				<li><span>Super TAS</span> - The same as TAS-NL, but with extras</li>
 				<li><span>Tool-Assisted LG</span> - The same as LG, but with tas</li>
 				<li><span>Tool-Assisted JI</span> - The same as JI, but with tas</li>
 				<li><span>Auto-Strafe</span> - Normal with autostrafing</li>
-				<li><span>Seg Auto-Strafe</span> - The same as Auto-Strafe, but with segments menu</li>
 				<li><span>Stamina</span> - Jump with stamina</li>
 				<li><span>Hard Stamina</span> - Jump with stamina, height lowered (0.9)</li>
 				<li><span>Impossible Stamina</span> - Jump with stamina, height lowered (0.8)</li>
 				<li><span>Seg Hard Stamina</span> - Hard Stamina with segments</li>
+				<li><span>400 Velocity</span> - Speed limit at 400 Velocity</li>
+				<li><span>600 Velocity</span> - Speed limit at 600 Velocity</li>
 				<li><span>Surf HSW</span> - Surf HSW</li>
 				<li><span>A/D-Only</span> - You can only use the A or D key</li>
 				<li><span>S-Only</span> - You can only use the S key</li>
@@ -59,9 +59,12 @@
 				<li><span>TAS Speedrun</span> -  The same as Speedrun, but with TAS menu</li>
 				<li><span>Unreal</span> - You can push off the walls by shooting at them, you also have a double jump</li>
 				<li><span>Segmented Unreal</span> - You can push off the walls by shooting at them, you also have a double jump</li>
+				<li><span>Jump Impulse</span> - High jump height</li>
 				<li><span>Half-Life 2</span> - Experience close to Half-Life 2 Old Engine</li>
+				<li><span>Left 4 Dead 2</span> - Experience close to Left 4 Dead 2 with autobhop</li>
 				<li><span>Third Person</span> - Normal, but only in third person.</li>
 				<li><span>Double Jump</span> - Normal with one extra jump in the air</li>
+								
 			</ol>
 		</div>
 		<h2 id="commands-an">Commands</h2>
@@ -78,7 +81,7 @@
 				<li><span>!savegame</span> - Save or load a timer state </li>
 				<li><span>!replay</span> - Opens the replay bot menu</li>
 				<li hidden><span>!myreplay</span> - Opens your replay menu</li>
-				<li><span>!preview </span> - Preview your unfinished replay</li>
+				<li hidden><span>!preview </span> - Preview your unfinished replay</li>
 				<li><span>!spec</span> - Moves you to the spectators' team</li>
 			</ol>
 			<h3>HUD</h3>
@@ -110,6 +113,8 @@
 				<li><span>!topmaps</span> - See the highest rated maps on the server</li>
 				<li><span>!worstmaps</span> - See the lowest rated maps on the server</li>
 				<li><span>!points</span> - Show rankingmultiplier</li>
+				<li><span>!mapstats</span> - shows the playtime on the map</li>
+				<li><span>!mapstatstop</span> - shows the playtime on top 100 maps</li>
 			</ol>
 			<h3>Helpers</h3>
 			<ol>
@@ -144,6 +149,8 @@
 		<div>
 			<ol>
 				<li>Plugin line (!line) may not work correctly.</li>
+				<li>Command !mapstatstop may not work correctly. The numerical order may be lost, 
+					for this you need to use the command again, it is best to do this in the console.</li>
 			</ol>
 		</div>
 	</main>
